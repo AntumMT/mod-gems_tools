@@ -527,7 +527,7 @@ minetest.register_node( "gems_tools:amethyst_block", {
 --
 --Gems
 --
-  
+
 minetest.register_craftitem( "gems_tools:ruby_gem", {
 	description = "ruby gem",
 	tiles = { "ruby:ruby_gem" },
@@ -554,7 +554,7 @@ minetest.register_craftitem( "gems_tools:amethyst_gem", {
 	tiles = { "gems_tools:amethyst_gem" },
 	inventory_image = "gems_amethyst_gem.png",
 	on_place_on_ground = minetest.craftitem_place_item,
-	
+
 })
 
 --
@@ -708,7 +708,7 @@ minetest.register_craft({
         output = 'gems_tools:ruby_pick_head',
         recipe = {
             {'gems_tools:ruby_gem', 'gems_tools:ruby_gem', 'gems_tools:ruby_gem'},
-		    
+
         }
 })
 
@@ -719,7 +719,7 @@ minetest.register_craft({
             {'gems_tools:ruby_gem', 'gems_tools:ruby_gem', ''},
 		    {'gems_tools:ruby_gem', '', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -729,7 +729,7 @@ minetest.register_craft({
             {'', 'gems_tools:ruby_gem', 'gems_tools:ruby_gem'},
 		    {'', '', 'gems_tools:ruby_gem'},
 		    {'', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -738,7 +738,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'gems_tools:ruby_gem', 'gems_tools:ruby_gem', ''},
 		    {'gems_tools:ruby_gem', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -747,7 +747,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:ruby_gem', 'gems_tools:ruby_gem'},
 		    {'', '', 'gems_tools:ruby_gem'},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -757,7 +757,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:ruby_gem', ''},
 		    {'', '', ''},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -776,7 +776,7 @@ minetest.register_craft({
         output = 'gems_tools:amethyst_pick_head',
         recipe = {
             {'gems_tools:amethyst_gem', 'gems_tools:amethyst_gem', 'gems_tools:amethyst_gem'},
-		    
+
         }
 })
 
@@ -787,7 +787,7 @@ minetest.register_craft({
             {'gems_tools:amethyst_gem', 'gems_tools:amethyst_gem', ''},
 		    {'gems_tools:amethyst_gem', '', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -797,7 +797,7 @@ minetest.register_craft({
             {'', 'gems_tools:amethyst_gem', 'gems_tools:amethyst_gem'},
 		    {'', '', 'gems_tools:amethyst_gem'},
 		    {'', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -806,7 +806,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'gems_tools:amethyst_gem', 'gems_tools:amethyst_gem', ''},
 		    {'gems_tools:amethyst_gem', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -815,7 +815,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:amethyst_gem', 'gems_tools:amethyst_gem'},
 		    {'', '', 'gems_tools:amethyst_gem'},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -825,7 +825,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:amethyst_gem', ''},
 		    {'', '', ''},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -844,7 +844,7 @@ minetest.register_craft({
         output = 'gems_tools:emerald_pick_head',
         recipe = {
             {'gems_tools:emerald_gem', 'gems_tools:emerald_gem', 'gems_tools:emerald_gem'},
-		    
+
         }
 })
 
@@ -855,7 +855,7 @@ minetest.register_craft({
             {'gems_tools:emerald_gem', 'gems_tools:emerald', ''},
 		    {'gems_tools:emerald_gem', '', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -865,7 +865,7 @@ minetest.register_craft({
             {'', 'gems_tools:emerald_gem', 'gems_tools:emerald_gem'},
 		    {'', '', 'gems_tools:emerald_gem'},
 		    {'', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -874,7 +874,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'gems_tools:emerald_gem', 'gems_tools:emerald_gem', ''},
 		    {'gems_tools:emerald_gem', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -883,7 +883,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:emerald_gem', 'gems_tools:emerald_gem'},
 		    {'', '', 'gems_tools:emerald_gem'},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -893,7 +893,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:emerald_gem', ''},
 		    {'', '', ''},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -912,7 +912,7 @@ minetest.register_craft({
         output = 'gems_tools:sapphire_pick_head',
         recipe = {
             {'gems_tools:sapphire_gem', 'gems_tools:sapphire_gem', 'gems_tools:sapphire_gem'},
-		    
+
         }
 })
 
@@ -923,7 +923,7 @@ minetest.register_craft({
             {'gems_tools:sapphire_gem', 'gems_tools:sapphire', ''},
 		    {'gems_tools:sapphire_gem', '', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -933,7 +933,7 @@ minetest.register_craft({
             {'', 'gems_tools:sapphire_gem', 'gems_tools:sapphire_gem'},
 		    {'', '', 'gems_tools:sapphire_gem'},
 		    {'', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -942,7 +942,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'gems_tools:sapphire_gem', 'gems_tools:sapphire_gem', ''},
 		    {'gems_tools:sapphire_gem', '', ''},
-                
+
         }
 })
 minetest.register_craft({
@@ -951,7 +951,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:sapphire_gem', 'gems_tools:sapphire_gem'},
 		    {'', '', 'gems_tools:sapphire_gem'},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -961,7 +961,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:sapphire_gem', ''},
 		    {'', '', ''},
-                
+
         }
 })
 ---------------------------------------------------------------------
@@ -983,7 +983,7 @@ minetest.register_craft({
             {'', 'gems_tools:emerald_pick_head', ''},
 		    {'', 'default:stick', ''},
 		    {'', 'default:stick', ''},
-                
+
         }
 })
 
@@ -993,7 +993,7 @@ minetest.register_craft({
             {'', 'gems_tools:emerald_pick_head', ''},
 		    {'', 'gems_tools:stone_rod', ''},
 		    {'', 'gems_tools:stone_rod', ''},
-                
+
         }
 })
 
@@ -1003,7 +1003,7 @@ minetest.register_craft({
             {'', 'gems_tools:ruby_pick_head', ''},
 		    {'', 'default:stick', ''},
 		    {'', 'default:stick', ''},
-                
+
         }
 })
 
@@ -1013,7 +1013,7 @@ minetest.register_craft({
             {'', 'gems_tools:ruby_pick_head', ''},
 		    {'', 'gems_tools:stone_rod', ''},
 		    {'', 'gems_tools:stone_rod', ''},
-                
+
         }
 })
 
@@ -1023,7 +1023,7 @@ minetest.register_craft({
             {'', 'gems_tools:sapphire_pick_head', ''},
 		    {'', 'default:stick', ''},
 		    {'', 'default:stick', ''},
-                
+
         }
 })
 
@@ -1033,7 +1033,7 @@ minetest.register_craft({
             {'', 'gems_tools:sapphire_pick_head', ''},
 		    {'', 'gems_tools:stone_rod', ''},
 		    {'', 'gems_tools:stone_rod', ''},
-                
+
         }
 })
 
@@ -1043,7 +1043,7 @@ minetest.register_craft({
             {'', 'gems_tools:amethyst_pick_head', ''},
 		    {'', 'default:stick', ''},
 		    {'', 'default:stick', ''},
-                
+
         }
 })
 
@@ -1053,7 +1053,7 @@ minetest.register_craft({
             {'', 'gems_tools:amethyst_pick_head', ''},
 		    {'', 'gems_tools:stone_rod', ''},
 		    {'', 'gems_tools:stone_rod', ''},
-                
+
         }
 })
 
@@ -1107,7 +1107,7 @@ minetest.register_craft({
             {'gems_tools:ruby_shovel_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1117,7 +1117,7 @@ minetest.register_craft({
             {'gems_tools:ruby_shovel_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1127,7 +1127,7 @@ minetest.register_craft({
             {'gems_tools:emerald_shovel_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1137,7 +1137,7 @@ minetest.register_craft({
             {'gems_tools:emerald_shovel_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1147,7 +1147,7 @@ minetest.register_craft({
             {'gems_tools:sapphire_shovel_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1157,7 +1157,7 @@ minetest.register_craft({
             {'gems_tools:sapphire_shovel_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1167,7 +1167,7 @@ minetest.register_craft({
             {'gems_tools:amethyst_shovel_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1177,7 +1177,7 @@ minetest.register_craft({
             {'gems_tools:amethyst_shovel_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1187,19 +1187,19 @@ minetest.register_craft({
 
 minetest.register_craft({
         output = 'gems_tools:sword_ruby',
-        recipe = {    
+        recipe = {
 		    {'gems_tools:ruby_sword_blade'},
 		    {'default:stick'},
-                
+
         }
 })
 
 minetest.register_craft({
         output = 'gems_tools:stone_sword_ruby',
-        recipe = {    
+        recipe = {
 		    {'gems_tools:ruby_sword_blade'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1208,7 +1208,7 @@ minetest.register_craft({
         recipe = {
 		    {'gems_tools:amethyst_sword_blade'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1217,7 +1217,7 @@ minetest.register_craft({
         recipe = {
 		    {'gems_tools:amethyst_sword_blade'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1226,7 +1226,7 @@ minetest.register_craft({
         recipe = {
 		    {'gems_tools:emerald_sword_blade'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1235,7 +1235,7 @@ minetest.register_craft({
         recipe = {
 		    {'gems_tools:emerald_sword_blade'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1244,7 +1244,7 @@ minetest.register_craft({
         recipe = {
 		    {'gems_tools:sapphire_sword_blade'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1253,7 +1253,7 @@ minetest.register_craft({
         recipe = {
 		    {'gems_tools:sapphire_sword_blade'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1267,7 +1267,7 @@ minetest.register_craft({
             {'gems_tools:ruby_axe_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1277,7 +1277,7 @@ minetest.register_craft({
             {'gems_tools:ruby_axe_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1287,7 +1287,7 @@ minetest.register_craft({
             {'gems_tools:emerald_axe_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1297,7 +1297,7 @@ minetest.register_craft({
             {'gems_tools:emerald_axe_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1307,7 +1307,7 @@ minetest.register_craft({
             {'gems_tools:sapphire_axe_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1317,7 +1317,7 @@ minetest.register_craft({
             {'gems_tools:sapphire_axe_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1327,7 +1327,7 @@ minetest.register_craft({
             {'gems_tools:amethyst_axe_head'},
 		    {'default:stick'},
 		    {'default:stick'},
-                
+
         }
 })
 
@@ -1337,7 +1337,7 @@ minetest.register_craft({
             {'gems_tools:amethyst_axe_head'},
 		    {'gems_tools:stone_rod'},
 		    {'gems_tools:stone_rod'},
-                
+
         }
 })
 
@@ -1351,7 +1351,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:amethyst_block', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -1361,7 +1361,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:ruby_block', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -1371,7 +1371,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:emerald_block', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -1381,12 +1381,12 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'gems_tools:sapphire_block', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
 --
---Crafting>Stone Rod 
+--Crafting>Stone Rod
 --
 minetest.register_craft({
         output = 'gems_tools:stone_rod 4',
@@ -1394,7 +1394,7 @@ minetest.register_craft({
             {'', '', ''},
 		    {'', 'default:cobble', ''},
 		    {'', '', ''},
-                
+
         }
 })
 
@@ -1513,7 +1513,7 @@ end
 		y_min          = -31000,
 		y_max          = -64,
 	})
-	
+
 --              --
 --gem fabricator--
 --              --
@@ -1524,7 +1524,7 @@ end
 --
 
 local function active_formspec(fuel_percent, item_percent)
-	local formspec = 
+	local formspec =
 		"size[8,8.5]"..
 		default.gui_bg..
 		default.gui_bg_img..
@@ -1906,7 +1906,7 @@ minetest.register_craft({
             {'default:desert_stonebrick', 'default:desert_stonebrick', 'default:desert_stonebrick'},
 		    {'default:desert_stonebrick', 'default:diamond', 'default:desert_stonebrick'},
 		    {'default:desert_stonebrick', 'default:desert_stonebrick', 'default:desert_stonebrick'},
-                
+
         }
 })
 
@@ -1916,6 +1916,6 @@ minetest.register_craft({
             {'', 'default:diamond', ''},
 		    {'default:diamond', '', 'default:diamond'},
 		    {'', 'default:diamond', ''},
-                
+
         }
 })
